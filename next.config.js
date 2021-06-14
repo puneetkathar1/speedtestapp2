@@ -9,7 +9,7 @@ const nextConfig = {
     REACT_APP_GOOGLE_MAP_API_KEY:
       'https://maps.googleapis.com/maps/api/js?v=3.exp&key=YOUR_GOOGLE_MAP_API_KEY&libraries=geometry,drawing,places',
 
-    SERVER_API: `http://localhost:3001`,
+    SERVER_API: `speedtestapp-mg9tt1i8n-puneetkathar1.vercel.app`,
   },
   webpack: (config, { isServer }) => {
     // HOTFIX: https://github.com/webpack-contrib/mini-css-extract-plugin/issues/250
